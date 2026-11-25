@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مطعم دار الشام | نموذج صفحة هبوط</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Tahoma,Arial,sans-serif;color:#2b2118;background:#fffaf3;line-height:1.8}
+a{text-decoration:none}
+nav{position:sticky;top:0;background:#fffaf3ee;display:flex;justify-content:space-between;align-items:center;padding:14px 6%;border-bottom:1px solid #eadfce;z-index:5}
+.logo{font-size:1.4rem;font-weight:bold;color:#b4421a}
+nav a.l{color:#2b2118;margin-inline-start:20px;font-size:.95rem}
+.hero{background:linear-gradient(135deg,#b4421a,#e08a2c);color:#fff;text-align:center;padding:90px 6%}
+.hero h1{font-size:2.4rem;margin-bottom:12px}
+.hero p{max-width:560px;margin:0 auto 28px;font-size:1.1rem}
+.btn{display:inline-block;background:#fff;color:#b4421a;padding:12px 30px;border-radius:30px;font-weight:bold}
+.btn.g{background:#25a244;color:#fff}
+section{padding:60px 6%;max-width:1000px;margin:auto}
+h2{text-align:center;color:#b4421a;font-size:1.7rem;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border:1px solid #eadfce;border-radius:14px;padding:22px;text-align:center}
+.card .e{font-size:2.4rem}
+.card h3{margin:8px 0 4px}
+.price{color:#b4421a;font-weight:bold}
+.about{text-align:center;max-width:700px;margin:auto}
+.hours{background:#2b2118;color:#fff;max-width:none;text-align:center}
+.hours h2{color:#f0b35a}
+footer{text-align:center;padding:30px 6%;background:#1a130d;color:#bbb;font-size:.9rem}
+.wa{position:fixed;bottom:18px;left:18px;background:#25a244;color:#fff;padding:12px 20px;border-radius:30px;font-weight:bold;box-shadow:0 4px 12px #0004;z-index:9}
+@media(max-width:600px){.hero h1{font-size:1.8rem}nav a.l{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="logo">🍽️ دار الشام</div><div><a class="l" href="#menu">المنيو</a><a class="l" href="#about">من نحن</a><a class="l" href="#hours">المواعيد</a><a class="l" href="#contact">تواصل</a></div></nav>
+<header class="hero">
+<h1>أشهى المأكولات الشامية والمشويات</h1>
+<p>طعم أصيل ومكونات طازجة كل يوم. اطلب الآن أو احجز طاولتك.</p>
+<a class="btn" href="#contact">احجز طاولة</a>
+</header>
+<section id="menu">
+<h2>أشهر أطباقنا</h2>
+<div class="grid">
+<div class="card"><div class="e">🥙</div><h3>شاورما دجاج</h3><p>مع الثوم والمخلل</p><div class="price">85 ج.م</div></div>
+<div class="card"><div class="e">🍖</div><h3>مشاوي مشكلة</h3><p>كفتة وكباب وطاووق</p><div class="price">240 ج.م</div></div>
+<div class="card"><div class="e">🥗</div><h3>فتوش وتبولة</h3><p>سلطات طازجة</p><div class="price">60 ج.م</div></div>
+<div class="card"><div class="e">🍮</div><h3>كنافة بالقشطة</h3><p>ساخنة من الفرن</p><div class="price">70 ج.م</div></div>
+</div>
+</section>
+<section id="about" class="about">
+<h2>من نحن</h2>
+<p>نقدم لكم أكلًا مطبوخًا بحب بوصفات عائلية قديمة. جلسات مريحة للعائلات، وخدمة توصيل سريعة داخل المدينة.</p>
+</section>
+<section id="hours" class="hours">
+<h2>مواعيد العمل</h2>
+<p>كل يوم من 12 ظهرًا حتى 1 صباحًا</p>
+<p>الجمعة من 1 ظهرًا حتى 2 صباحًا</p>
+</section>
+<section id="contact" style="text-align:center">
+<h2>احجز أو اطلب</h2>
+<p style="margin-bottom:20px">تواصل معنا مباشرة على واتساب وهنرد عليك في أقرب وقت.</p>
+<a class="btn g" href="https://wa.me/201000000000">راسلنا على واتساب</a>
+</section>
+<footer>© مطعم دار الشام. هذه الصفحة نموذج تصميم توضيحي.</footer>
+<a class="wa" href="https://wa.me/201000000000">💬 واتساب</a>
+</body>
+</html>
